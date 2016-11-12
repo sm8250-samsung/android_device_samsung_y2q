@@ -8,6 +8,7 @@
 $(call inherit-product, device/samsung/sm8250-common/common.mk)
 
 # Boot Animation
+TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 3200
 TARGET_SCREEN_WIDTH := 1440
 
