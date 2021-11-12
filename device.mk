@@ -33,5 +33,9 @@ TARGET_SCREEN_WIDTH := 1440
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Skip Mount
+PRODUCT_PACKAGES += \
+    gsi_skip_mount.cfg
+
 # Inherit from vendor blobs
 $(call inherit-product-if-exists, vendor/samsung/y2q/y2q-vendor.mk)
