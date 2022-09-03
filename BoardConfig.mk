@@ -8,3 +8,6 @@
 include device/samsung/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/y2q
+
+# Kernel
+TARGET_KERNEL_CONFIG := vendor/lineage_y2q_defconfig
