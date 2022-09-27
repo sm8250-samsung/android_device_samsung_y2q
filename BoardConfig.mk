@@ -9,5 +9,8 @@ include device/samsung/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/y2q
 
+# Display
+TARGET_SCREEN_DENSITY := 450
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/lineage_y2q_defconfig
