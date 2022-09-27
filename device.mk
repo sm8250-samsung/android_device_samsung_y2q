@@ -6,3 +6,7 @@
 
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/samsung/sm8250-common/common.mk)
+
+# Display
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.lcd_density=450 \
