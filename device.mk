@@ -7,6 +7,10 @@
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/samsung/sm8250-common/common.mk)
 
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 3200
+TARGET_SCREEN_WIDTH := 1440
+
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=450 \
